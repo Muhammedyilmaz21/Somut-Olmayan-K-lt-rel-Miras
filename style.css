@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	font-family: sans-serif;
+
+}
+.menu-bar{
+	background-color: #959595;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+}
+.menu-bar ul li{
+	width: 140px;
+	margin: 10px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover{
+	background: #aaaaaa;
+	border-radius: 15px;
+}
+.sub-menu{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+background: #959595;
+display: block;
+position: absolute;
+margin-top: 20px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+	display: block;
+	border-radius: 15px;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted;	
+	text-align: left;
+	border-radius: 15px;
+}
+.menu-bar ul li:hover .sub-menu ul li:hover{
+	color: black;
+}
+.menu-bar1{
+	background-color: #959595;
+	text-align: center;
+}
+.menu-bar1 ul{
+	display: inline-flex;
+	list-style: none;
+}
+.menu-bar1 ul li{
+	width: 180px;
+	margin: 50px;
+	padding: 50px;
+}
+.menu-bar1 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#turkiyeharita path:hover{
+	color: red;
+}

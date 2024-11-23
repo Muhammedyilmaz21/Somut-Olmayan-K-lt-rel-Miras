@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(file:///C:/Users/dicle/Downloads/somut-miras.jpg);
+	font-family: sans-serif;
+}
+.menubar{
+	background-color: darkslateblue;
+}
+.menubar ul{
+	display: inline-flex;
+	list-style: none;
+}
+.menubar ul li{
+	width: 150px;
+	margin: 15px;
+	padding: 15px;
+
+}
+.menubar ul li a{
+	text-decoration: none;
+	color: white;
+}
